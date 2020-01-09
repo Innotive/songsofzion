@@ -17,29 +17,33 @@ export const MENU_ITEMS: NbMenuItem[] = [
     group: true,
   },
   {
-    title: 'Layout',
+    title: 'User Management',
     icon: 'layout-outline',
     children: [
       {
+        title: 'Users',
+        link: '/admin/usermanagement/users',
+      },
+      {
         title: 'Stepper',
-        link: '/pages/layout/stepper',
+        link: '/admin/usermanagement/stepper',
       },
       {
         title: 'List',
-        link: '/pages/layout/list',
+        link: '/admin/usermanagement/list',
       },
       {
         title: 'Infinite List',
-        link: '/pages/layout/infinite-list',
+        link: '/admin/usermanagement/infinite-list',
       },
       {
         title: 'Accordion',
-        link: '/pages/layout/accordion',
+        link: '/admin/usermanagement/accordion',
       },
       {
         title: 'Tabs',
         pathMatch: 'prefix',
-        link: '/pages/layout/tabs',
+        link: '/pages/usermanagement/tabs',
       },
     ],
   },
@@ -49,19 +53,19 @@ export const MENU_ITEMS: NbMenuItem[] = [
     children: [
       {
         title: 'Form Inputs',
-        link: '/pages/forms/inputs',
+        link: '/admin/forms/inputs',
       },
       {
         title: 'Form Layouts',
-        link: '/pages/forms/layouts',
+        link: '/admin/forms/layouts',
       },
       {
         title: 'Buttons',
-        link: '/pages/forms/buttons',
+        link: '/admin/forms/buttons',
       },
       {
         title: 'Datepicker',
-        link: '/pages/forms/datepicker',
+        link: '/admin/forms/datepicker',
       },
     ],
   },
@@ -76,7 +80,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
       },
       {
         title: 'Icons',
-        link: '/pages/ui-features/icons',
+        link: '/admin/ui-features/icons',
       },
       {
         title: 'Typography',

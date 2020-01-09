@@ -19,9 +19,9 @@ const routes: Routes = [{
       component: DashboardComponent,
     },
     {
-      path: 'layout',
-      loadChildren: () => import('./layout/layout.module')
-        .then(m => m.LayoutModule),
+      path: 'usermanagement',
+      loadChildren: () => import('./usermanagement/usermanagement.module')
+        .then(m => m.UserManagementModule),
     },
     {
       path: 'forms',

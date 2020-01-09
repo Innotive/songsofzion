@@ -10,4 +10,6 @@
 
 export const environment = {
   production: false,
+  apiEndpoint: 'http://localhost:8012/api/',
+  apiKey: '0E715854-399B-489D-AE75-D1AFF1ED3170',
 };
